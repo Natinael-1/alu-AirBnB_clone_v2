@@ -49,3 +49,6 @@ EOF
 
 # Restart nginx
 service nginx restart
+
+# Exit successfully
+exit 0

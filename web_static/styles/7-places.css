@@ -1,0 +1,32 @@
+/* styles/7-places.css */
+
+/* The main container for all the house listings */
+.places {
+  display: flex;
+  flex-wrap: wrap; /* Forces boxes to a new line when they run out of room */
+  justify-content: center; /* Centers the boxes in the middle of the screen */
+}
+
+/* The main title of the section */
+.places h1 {
+  font-size: 30px;
+  width: 100%; /* Forces the title to take up the whole top row */
+  text-align: left; /* Aligns the text to the top left as required */
+  margin-top: 30px;
+}
+
+/* The individual house listing box */
+.places article {
+  width: 390px;
+  padding: 20px;
+  margin: 20px;
+  border: 1px solid #FF5A5F;
+  border-radius: 4px;
+}
+
+/* The name of the specific house */
+.places article h2 {
+  font-size: 30px;
+  text-align: center; /* Centers horizontally as required */
+  margin: 0;
+}
